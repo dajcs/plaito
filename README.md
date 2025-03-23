@@ -14,4 +14,21 @@ Please make a detailed summary, capture the essence and provide sufficient deta
 The generated summary is copy/pasted and saved into [LLM_Summary.docs](./LLM_Summary.docx) file.  
 The `UTF-8` encoded text version is saved into the [LLM_Summary.txt](./LLM_Summary.txt) file.
 
-3. **Automated Analysis Script**
+3. **Automated Analysis Script:**  
+The notebook script [summary_comp.ipynb](./summary_comp.ipynb) performs:
+   - **Clustering:** organizing each summary into predefined themes (e.g. context, problem statement)
+   - **Comparison:** comparing the clustered results  
+
+    **Setup:** For this exercise the Python v3.11 has been used with [conda](https://www.anaconda.com/docs/getting-started/miniconda/install). The file [requirements.yml](./requirements.yml) contains packages for `jupyter lab` and clients for major language models and for [huggingface](https://huggingface.co/) (the github for LLMs)  
+    The commands to create new environment called `plaito`, activate, and start jupyter lab:
+    ```
+    conda update conda
+    conda env create -f environment.yml
+    conda activate plaito
+    jupyter lab
+    ```  
+    Alternatively the packages can be installed from the file [requirements.txt](requirements.txt) a Python environment without `conda` with command:  
+    ```
+    pip install -r requirements.txt
+    ```
+
