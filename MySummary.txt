@@ -25,9 +25,9 @@ Omission Types
 
 Research Methodology
 The study involved three industrial case studies:
-1. Aerospace Simulator
-2. Sensor Platform
-3. Safety Assurance CMS
+1. Aerospace Simulator (163 requirements)
+2. Sensor Platform (212 requirements)
+3. Safety Assurance CMS (110 requirements)
 Each case analyzed 35 "shall-style" functional requirements. Domain experts constructed feasibly complete UML class diagrams representing domain concepts derived from these requirements, adding any critical tacit concepts not explicitly stated in the documents.
 
 Traceability and Simulation
@@ -38,7 +38,7 @@ Findings and Analysis
 Sensitivity of Domain Models
 The experiments showed domain models effectively highlight omissions:
 • Domain models demonstrated near-linear sensitivity to omissions.
-• Omitting entire requirements had a significantly larger impact than omitting individual conditions or constraints. Removing whole requirements consistently left more domain elements uncovered, indicating higher sensitivity.
+• Omitting entire requirements had a 4.4 times higher impact than omitting individual conditions or constraints. Removing whole requirements consistently left more domain elements uncovered, indicating higher sensitivity.
 • Across all cases, domain models were approximately four times more sensitive to missing entire requirements than to missing details within existing requirements.
 
 Variation Among Cases
