@@ -2,7 +2,7 @@
 "An Empirical Study on the Potential Usefulness of Domain Models for Completeness Checking of Requirements"
 
 Introduction and Motivation
-Completeness in software requirements is critical for avoiding costly oversights in system design and implementation. This paper addresses external completeness, which refers to ensuring all relevant information from external knowledge sources is included within the requirements. Unlike internal completeness — which checks for undefined references within the specification itself — external completeness involves cross-checking against external domain knowledge.
+Completeness in software requirements is critical for avoiding costly oversights in system design and implementation. This paper addresses external completeness, which refers to ensuring all relevant information from external knowledge sources is included within the requirements. Unlike internal completeness – which checks for undefined references within the specification itself – external completeness involves cross-checking against external domain knowledge.
 A common method proposed for ensuring external completeness is using domain models. These models, such as UML class diagrams, explicitly capture domain concepts and relationships. The underlying hypothesis is that every important domain concept or relation should appear in the requirements specification. Thus, the absence of a domain model element in the requirements might indicate missing information. This paper empirically investigates the practical usefulness of domain models for completeness checking in real-world scenarios.
 
 Key Concepts
