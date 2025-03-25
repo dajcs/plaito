@@ -49,3 +49,7 @@ dependencies:
     - twilio
     - pydub
     - rake-nltk
+    - mistralai
+    - wget
+    - rouge
+

@@ -43,3 +43,6 @@ speedtest-cli
 sentence_transformers
 feedparser
 rake-nltk
+mistralai
+wget
+rouge
