@@ -52,4 +52,5 @@ dependencies:
     - mistralai
     - wget
     - rouge
+    - bert-score
 

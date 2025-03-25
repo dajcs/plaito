@@ -46,3 +46,4 @@ rake-nltk
 mistralai
 wget
 rouge
+bert-score
