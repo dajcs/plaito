@@ -48,3 +48,6 @@ The initial prompt
     
     The resulting summary has been saved as [DS_Summary.docx](./DS_Summary.docx) and it can be viewed at [DS_Summary.    pdf](./DS_Summary.pdf).  
     The text version is saved with `UTF-8` encoding at [DS_Summary.txt](./DS_Summary.txt)
+
+5. **Comparative Analysis Findings**  
+The findings on comparative analysis of human and LLM generated summaries can be read in the [Comparative_Analysis_Findings.pdf](./Comparative_Analysis_Findings.pdf) document.
