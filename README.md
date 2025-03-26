@@ -27,8 +27,24 @@ The notebook script [summary_comp.ipynb](./summary_comp.ipynb) performs:
     conda activate plaito
     jupyter lab
     ```  
-    Alternatively the packages can be installed from the file [requirements.txt](requirements.txt) in a Python environment without `conda` with command:  
+    Alternatively the packages can be installed without `conda` in a Python environment using the file [requirements.txt](requirements.txt) with command:  
     ```
     pip install -r requirements.txt
     ```
 
+4. **Optional Challenge - DeepSeek Summary:**
+We made another summary of the original study on the [DeepSeek](https://chat.deepseek.com/) web interface with the R1 model.  
+The initial prompt
+    ```
+    Can you make a 3 page long summary of the attached paper? Please make a detailed summary, capture the essence and     provide sufficient detail to stand alone for readers unfamiliar with the original document.
+    ```
+    provided us with a 2 page long summary, but it was "thinking" that it provided us a  
+    `Word Count: ~1,200 (≈3 pages)` long summary.
+    
+    On the second prompt we tried to persuade to make the summary somewhat longer:
+    ```
+    My wordcount resulted in 674 words (2 pages).  Can you put some more details in it to have 1000+ words?
+    ```
+    
+    The resulting summary has been saved as [DS_Summary.docx](./DS_Summary.docx) and it can be viewed at [DS_Summary.    pdf](./DS_Summary.pdf).  
+    The text version is saved with `UTF-8` encoding at [DS_Summary.txt](./DS_Summary.txt)
