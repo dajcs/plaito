@@ -1,5 +1,5 @@
 # PLAITO
-Exercise for PhD Candidates in Requirements Engineering (PLAITO Project)
+Exercise for Requirements Engineering (PLAITO Project)
 
 ## Tasks
 1. **Manual Summary:**  
